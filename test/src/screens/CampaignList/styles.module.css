@@ -1,0 +1,12 @@
+.campaignListContainer {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 200px);
+  gap: 20px;
+}
+
+.gridContainer {
+  max-width: 900px;
+}

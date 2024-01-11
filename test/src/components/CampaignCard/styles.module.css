@@ -1,0 +1,19 @@
+.campaignCard {
+  text-align: center;
+  height: 100%;
+}
+
+.cardActionArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.campaignTitle {
+  color: #202024;
+}
+
+.campaignId {
+  color: #29292e;
+}
