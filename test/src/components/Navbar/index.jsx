@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { AppBar, Toolbar, IconButton } from "@mui/material";
-import Logo from "../../assets/LCL-logo.png";
+
 import { useLocation } from "react-router-dom";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 
@@ -28,13 +28,7 @@ export const Navbar = () => {
           <Link
             to="/"
             style={{ backgroundColor: "white", textDecoration: "none" }}
-          >
-            <img
-              src={Logo}
-              alt="Logo"
-              style={{ maxHeight: 40, marginRight: 10 }}
-            />
-          </Link>
+          ></Link>
         )}
       </Toolbar>
     </AppBar>
