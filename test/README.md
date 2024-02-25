@@ -1,4 +1,4 @@
-# Loblaw frontend test - Campaign Metrics Dashboard - MVP
+# Campaign Metrics Dashboard - MVP
 
 _Create by Gabriel Leal Sala de Oliveira_
 
@@ -38,7 +38,6 @@ It defines the project's metadata, dependencies, scripts, and other configuratio
 
 ###### Metadata
 
-- `name: loblaw_frontend_test`: The name of the project.
 - `version: "0.1.0`: The current version of the project.
 - `private: true`: This flag prevents the project from being accidentally published to npm.
 
@@ -333,7 +332,7 @@ Defines the set of browsers the project supports in both development and product
 - The `AppBar` component from Material-UI is used as the main container, with `Toolbar` inside it for content alignment.
 - The content of the `Navbar` changes based on whether the user is on the dashboard page or not (`isDashboard`).
 - For dashboard pages, an `IconButton` with an `ArrowBackIcon` is displayed. This serves as a back button wrapped in a `Link` that navigates to the home page.
-- For other pages, the `Loblaw Companies Limited (LCL)` logo is displayed as a clickable image, which also leads to the home page when clicked.
+- For other pages, the logo is displayed as a clickable image, which also leads to the home page when clicked.
 
 ##### src/services/api.js
 
